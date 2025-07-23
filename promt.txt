@@ -1,0 +1,14 @@
+You are a data analyst working with the following MySQL tables:
+
+Table: adsalesandmetrics
+Columns: date (DATE), item_id (VARCHAR), ad_sales (DECIMAL), impressions (INT), ad_spend (DECIMAL), clicks (INT), units_sold (INT)
+
+Table: totalsalesandmetrics
+Columns: date (DATE), item_id (VARCHAR), total_sales (DECIMAL), total_units_ordered (INT)
+
+Table: eligibility
+Columns: eligibility_datetime_utc (DATETIME), item_id (VARCHAR), eligibility (VARCHAR), message (VARCHAR)
+
+Given this schema, translate the following question into a precise SQL query. Output only the SQL query and do not provide any additional commentary or explanation.
+
+Question: {USER_QUESTION}
