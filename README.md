@@ -121,19 +121,19 @@ bash
 pip install flask mysql-connector-python sqlalchemy langchain langchain-community langchain-ollama python-dotenv
 
 Packages used:
-flask (web server)
+1.  flask (web server)
 
-mysql-connector-python (MySQL driver)
+2. mysql-connector-python (MySQL driver)
 
-sqlalchemy (database toolkit)
+3. sqlalchemy (database toolkit)
 
-langchain (LLM orchestration)
+4. langchain (LLM orchestration)
 
-langchain-community (SQLDatabase integration)
+5. langchain-community (SQLDatabase integration)
 
-langchain-ollama (Ollama LLM support)
+6. langchain-ollama (Ollama LLM support)
 
-python-dotenv (environment variables)
+7. python-dotenv (environment variables)
 
 
 
